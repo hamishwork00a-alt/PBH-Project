@@ -7,9 +7,8 @@
 1. 修改扰动演化方程：
    在原初等离子体中，密度扰动的增长受引力与压力竞争的支配。您的缓冲场可以提供一个依赖于尺度k和场期望值 $\langle \phi \rangle$ 的阻尼项：
    
-$$\ddot{\delta}_k + 2H\dot{\delta}_k + \left( \frac{c_s^2 k^2}{a^2} - 4\pi G\rho + \Gamma_{\text{damp}}(k, \langle \phi \rangle) \right)\delta_k = 0$$
-   
-   >其中， $\Gamma_{\text{damp}}$  是您假说中的核心，可能形式为  $\Gamma_{\text{damp}} \propto \langle \phi \rangle^2 \cdot f(k)$ 。它在特定尺度上压制扰动增长。
+$$\ddot{\delta}_k + 2H\dot{\delta}_k + \left( \frac{c_s^2 k^2}{a^2} - 4\pi G\rho + \Gamma_{\text{damp}}(k, \langle \phi \rangle) \right)\delta_k = 0$$ 
+- 其中， $\Gamma_{\text{damp}}$  是您假说中的核心，可能形式为  $\Gamma_{\text{damp}} \propto \langle \phi \rangle^2 \cdot f(k)$ 。它在特定尺度上压制扰动增长。
    
 2. 预言特征性质量峰：
    如果  $\Gamma_{\text{damp}}$  在某个特征尺度  $k_n$  附近作用显著，那么该尺度的扰动增长将受到抑制，而稍大或稍小的尺度则不受影响。这会导致原初黑洞的质量分布  $f(M_{\text{PBH}})$  不再平滑，而是在某个特征质量  $M_* \sim \frac{4\pi}{3} \rho H^{-3}|_{k=aH}$  处，出现一个尖锐的峰值或谷值。
