@@ -115,7 +115,11 @@ plt.show()
 $$f_{\text{PBH}}(M) \sim \int_{\delta_c}^{\infty} \frac{d\delta}{\sqrt{2\pi\sigma^2(M)}} \exp\left(-\frac{\delta^2}{2\sigma^2(M)}\right)$$
 
 其中方差 $\sigma^2(M) = \int d\ln k \, \mathcal{P}\_\mathcal{R}(k) \, \exp(-k^2R^2)，R \sim 1/(aH)$ 为平滑尺度。
-直接推论： $\mathcal{P}_\mathcal{R}(k)$ 在 $k_*$ 处的峰将导致原初黑洞质量函数在特征质量 $M_*$ 处出现一个尖锐的峰。通过调整参数， $M_*$ 可落在：
+
+直接推论：
+$\mathcal{P}\_\mathcal{R}(k)$ 在 $k_\star$ 处的峰将导致原初黑洞质量函数在特征质量 $M_\star$ 处出现一个尖锐的峰。
+
+通过调整参数， $M_*$ 可落在：
 
 - LIGO 窗口 ( $1-100 M_\odot$ )：解释观测到的黑洞并合事件。
 - 行星质量窗口 ( $10^{-16}-10^{-12} M_\odot$ )：作为暗物质候选。
